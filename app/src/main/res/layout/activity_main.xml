@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="top"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    >
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/khung_vien"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/nhietdo"
+                android:layout_width="40dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="30"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/nhietdo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/khung_vien"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/doam"
+                android:layout_width="40dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="30"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/doam" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/khung_vien"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/gas"
+                android:layout_width="40dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="30"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/khigas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/khonggas" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="30dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp">
+
+
+            <ImageView
+                android:id="@+id/light"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/light_off" />
+
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/onLight"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/on"/>
+        <Button
+
+            android:id="@+id/offLight"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/off"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
